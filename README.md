@@ -18,9 +18,11 @@ It reads the command and replys to it as if it was given a regular and normal se
 
 ## How-To
 
-placeholder (add images from figma)
+![EncoderPrompt](https://github.com/triple-alt/apl-pf/assets/149606011/e94bced9-68d0-4e98-9831-cf1e9232360a)
+
 
 ## Pros and Cons
+
 
 There are numerous pros and cons to this idea, however it's not made to replace writing your prompts in natural languages.
 

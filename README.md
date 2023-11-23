@@ -18,7 +18,8 @@ It reads the command and replys to it as if it was given a regular and normal se
 
 ## How-To
 
-![EncoderPrompt](https://github.com/triple-alt/apl-pf/assets/149606011/e94bced9-68d0-4e98-9831-cf1e9232360a)
+<img width="430" alt="EncoderPrompt(1)" src="https://github.com/triple-alt/apl-pf/assets/149606011/03714b68-1bfe-4d68-9741-1da4cf866eab">
+
 
 
 ## Pros and Cons

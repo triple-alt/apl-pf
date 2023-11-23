@@ -18,10 +18,9 @@ It reads the command and replys to it as if it was given a regular and normal se
 
 ## How-To
 
-<img width="430" height="480" alt="EncoderPrompt" src="https://github.com/triple-alt/apl-pf/assets/149606011/03714b68-1bfe-4d68-9741-1da4cf866eab">
-<img width="430" alt="DecoderPrompt(1)" src="https://github.com/triple-alt/apl-pf/assets/149606011/65112bad-eed1-43fc-8403-b666044ff413">
+<img width="888" alt="Group 3" src="https://github.com/triple-alt/apl-pf/assets/149606011/b98e47db-40d6-4943-9939-768f839d1387">
 
-
+**Updated everytime a major change is added or removed. Prompts used here may not be upto date!!**
 
 ## Pros and Cons
 

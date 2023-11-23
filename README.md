@@ -19,7 +19,8 @@ It reads the command and replys to it as if it was given a regular and normal se
 ## How-To
 
 <img width="430" height="480" alt="EncoderPrompt" src="https://github.com/triple-alt/apl-pf/assets/149606011/03714b68-1bfe-4d68-9741-1da4cf866eab">
-<img width="430" height="480" alt="DecoderPrompt" src="https://github.com/triple-alt/apl-pf/assets/149606011/a3a917aa-8b13-494b-b57c-3845f739eb17">
+<img width="430" alt="DecoderPrompt(1)" src="https://github.com/triple-alt/apl-pf/assets/149606011/65112bad-eed1-43fc-8403-b666044ff413">
+
 
 
 ## Pros and Cons

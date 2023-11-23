@@ -1,4 +1,4 @@
-# apl-pf
+# APL 2.0
 
 APL (2.0) is a "prompt framework" or just a format. **It's not related to the programming language under the same name.**
 
@@ -16,6 +16,9 @@ The decoder prompt is what gives the LLM the understanding of what APL is, it ba
 
 It reads the command and replys to it as if it was given a regular and normal sentence allowing seamless use.
 
+## How-To
+
+placeholder (add images from figma)
 
 ## Pros and Cons
 

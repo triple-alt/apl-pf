@@ -1,24 +1,26 @@
 # APL 2.0
 
-APL (2.0) is a "prompt framework" or just a format. **It's not related to the programming language under the same name.**
+APL (2.0) is what I like to call a "prompt framework", but you could also just call it a format. **It's not related to the programming language under the same name.**
 
-It's used to create and decode commands that can be inputted into Large Language Models, such as GPT-3.5 / ChatGPT.
+APL is used to create commands that are used inside of the APL framework, they are made with the [Encoder](https://github.com/triple-alt/apl-pf/blob/main/encoder-prompt) prompt and then used with the [Decoder]((https://github.com/triple-alt/apl-pf/blob/main/decoder-prompt)) prompt.
 
-## Encoder Prompt
+Both the Encoder and Decoder prompts have different versions **(however I make sure to try and match the version numbers but sometimes they aren't)**, the most recent versions are [here for the decoder prompt](https://github.com/triple-alt/apl-pf/blob/main/decoder-prompt) and [here for the encoder prompt](https://github.com/triple-alt/apl-pf/blob/main/encoder-prompt). Legacy (old) versions can be found [here](https://github.com/triple-alt/apl-pf/tree/main/legacy) and they are not suggested for use, but purely for learning and experimentation. Versions are major changes in either prompt, small changes are not documenated and following the project [commits](https://github.com/triple-alt/apl-pf/commits/main) is suggested as I name the change there. APL 1.0 can be found [here](https://github.com/apl-pf/APL-1.0), using this is not suggested at all.
 
-The encoder prompt is the prompt that allows users to give the LLM an input they want to encode into the APL format.
+## What is a Prompt Framework?
 
-It creates a "command" that has three parameters (complexity, dataset and instruction) that give the decoder prompt an understanding of what it's meant to be.
+A prompt framework is a term I use to generalise a prompt that has multiple pieces to it or multiple use-cases, almost like a programming language. APL can be used for hundreds of different things and has two seperate prompts that make it work, however they are not necessary. APL can also be edited and fit into someone elses liking as it's available to be used by everybody and documentated, which in my opinion is an important part to a project being considered a prompt framework. 
 
-## Decoder Prompt
+## What is the Encoder Prompt?
 
-The decoder prompt is what gives the LLM the understanding of what APL is, it bases it's understand of the dataset and instruction parameter.
+The Encoder Prompt is what is used to **create** an APL command, it puts all the text into all the parameters such as important key-words into "dataset" and if there are instructional phrases in the prompt, that is put into the "instruction" parameter. It's like rearranging the prompt into a less human readable sentence but more readable by the LLM as it doesn't have to necessarily figure out what is what. **In theory, you could write your prompt into the APL format by yourself but this prompt is here to make it easier!**
 
-It reads the command and replys to it as if it was given a regular and normal sentence allowing seamless use.
+## What is the Decoder Prompt?
 
-## How-To
+The Decoder Prompt is what is necessary to be able to use the APL command, it's like an instruction set for the LLM to be able to percieve what the text in the command is, without it the LLM wouldn't be able to figure out what to do with it. It works by explaning in short what each parameter of a command does and what it means, but it's then for the LLM to decide what to do with each parameter. **However it's written to maintain a certain path of understanding so that it can be used almost flawlessly as if it was natural language.**
 
-<img width="888" alt="Group 3" src="https://github.com/triple-alt/apl-pf/assets/149606011/b98e47db-40d6-4943-9939-768f839d1387">
+## How the Encoder and Decoder Prompts work:
+
+<img width="888" alt="HowtoImage" src="https://github.com/triple-alt/apl-pf/assets/149606011/c2a4e544-f2bb-428a-957c-d25d843e4823">
 
 **Updated everytime a major change is added or removed. Prompts used here may not be upto date!!**
 

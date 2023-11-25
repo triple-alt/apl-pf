@@ -1,0 +1,6 @@
+complexity: 0.8
+dataset: ["tracefusion", "SVG", "Ray-Tracing", "pipeline", "Object Filter", "environment", "reflectivity", "transparency", "colour matrix", "<feDisplacementMap>", "<feDiffusedLight>", "<feSpecularLight>", "Light Filter", "ls1", "<fePointLight>", "colour value", "intensity value", "Point at centre", "<feDiffuseLight>", "soft light", "Reflection Filter", "reflection colour matrix", "gradients", "shape of object", "reflectivity value", "transparency value"]
+instructions: "Use the Ray-Tracing pipeline for SVG 2 code in tracefusion. Set up the Object Filter with a reflective environment and define object properties. Create a light source 'ls1' with specified color and intensity, pointing it at the center of the environment. Apply <feDiffuseLight> for soft lighting. Implement a Reflection Filter using reflection color matrices and gradients based on object shapes, adjusting for reflectivity and transparency values."
+
+characters: 939
+words: 111

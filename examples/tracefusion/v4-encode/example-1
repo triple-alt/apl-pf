@@ -3,3 +3,6 @@
   "dataset": ["tracefusion", "ray-tracing", "SVG 2 code", "photorealistic", "Object Filter", "reflectivity", "transparency", "colour matrix", "<feDisplacementMap>", "<feDiffusedLight>", "<feSpecularLight>", "Light Filter", "ls1", "<fePointLight>", "colour value", "intensity value", "Point the light", "centre of environment", "<feDiffuseLight>", "soft light", "environmentReflection Filter", "reflection colour matrix", "gradients", "shape of object", "reflection onto the object", "reflectivity value", "transparency value"],
   "instructions": "Create SVG 2 code using tracefusion's Ray-Tracing pipeline for a photorealistic look. Utilize Object Filter for environment setup, Light Filter for soft light, and Reflection Filter for object reflections."
 }
+
+characters: 779
+words: 82

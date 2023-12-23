@@ -1,4 +1,4 @@
-# APL 2.0
+# APL (release 2)
 A way of formatting prompts that saves on characters and can be customised in a simpler manner.
 
 [**Documentation**](https://github.com/triple-alt/apl-pf/blob/main/documentation.md)

@@ -8,15 +8,15 @@ Both the Encoder and Decoder prompts have different versions **(however I make s
 
 ## What is a Prompt Framework?
 
-A prompt framework is a term I use to generalise a prompt that has multiple pieces to it or multiple use-cases, almost like a programming language. APL can be used for hundreds of different things and has two seperate prompts that make it work, however they are not necessary. APL can also be edited and fit into someone elses liking as it's available to be used by everybody and documentated, which in my opinion is an important part to a project being considered a prompt framework. 
+A prompt framework is a term I made up a while ago to define a prompt that is used to improve other prompts or to allow prompts to work more efficiently or with less characters. However the definition is broad and I guess something that I need to improve upon.
 
 ## What is the Encoder Prompt?
 
-The Encoder Prompt is what is used to **create** an APL command, it puts all the text into all the parameters such as important key-words into "dataset" and if there are instructional phrases in the prompt, that is put into the "instruction" parameter. It's like rearranging the prompt into a less human readable sentence but more readable by the LLM as it doesn't have to necessarily figure out what is what. **In theory, you could write your prompt into the APL format by yourself but this prompt is here to make it easier!**
+The Encoder prompt is used to convert natural language prompts into harder to read for humans prompts or an "APL command". It takes important context firstly, and puts it in a "data" parameter. Things that are included in the "data" parameter are things like keywords like for example from my tracefusion example it would be specific key functions that tracefusion should use, so in a more convential prompt it would be things like what the story is about or the topic the Assistant should help you write an essay about, things that give you more specified information on what the conversation is about. Secondly, it adds the important information on what it should do with this "data" that it's derived from the NL prompt, so again the same example if it was a prompt to help you write an essay it would be "write essay" or "write story". Lastly, it's the tone of voice the prompt is considered to be in, it's also based on what the "data" has for example and essay would be form = "formal" whilst a joke would be form = "informal".
 
 ## What is the Decoder Prompt?
 
-The Decoder Prompt is what is necessary to be able to use the APL command, it's like an instruction set for the LLM to be able to percieve what the text in the command is, without it the LLM wouldn't be able to figure out what to do with it. It works by explaning in short what each parameter of a command does and what it means, but it's then for the LLM to decide what to do with each parameter. **However it's written to maintain a certain path of understanding so that it can be used almost flawlessly as if it was natural language.**
+The decoder prompt simply gives the Assistant context on what on earth the information you will give it with an "APL command" is. This prompt is planned to become more and more obsolete with each iteration, and hopefully at one point it wouldn't be necessary.
 
 ## How the Encoder and Decoder Prompts work:
 
